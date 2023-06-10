@@ -1,13 +1,17 @@
-# Write a loop that prompts the user to enter a series of pizza toppings until they enter a 'quit' value. As they enter each topping,
-# print a message saying you’ll add that topping to their pizza
-
-prompt = "Please type the Pizza toppings you want and press 'Enter'"
+# Prompt the user to enter pizza toppings or 'quit' to stop.
+prompt = "Please type the pizza toppings you want and press 'Enter'."
 prompt += "\nType 'quit' and press 'Enter' when you're done.\n"
 
+# Initialize an empty string for toppings.
 toppings = ""
+
+# Start a while loop to repeatedly ask for pizza toppings.
 while True:
+    # Ask the user to enter a topping.
     toppings = input(prompt)
+
+    # Check if the user wants to quit.
     if toppings.lower() != 'quit':
-        print(f"{toppings.title()} is being added to your Pizza")
+        print(f"{toppings.title()} is being added to your pizza.")
     else:
         break
