@@ -13,9 +13,9 @@ def max_of_three(num1, num2, num3):
 while True:
     try:
         print("Enter three numbers to check the maximum\n")
-        num_1 = int(input("Enter 1st number: "))
-        num_2 = int(input("Enter the 2nd number: "))
-        num_3 = int(input("Enter the 3rd number: "))
+        num_1 = float(input("Enter 1st number: "))
+        num_2 = float(input("Enter the 2nd number: "))
+        num_3 = float(input("Enter the 3rd number: "))
         print()
         large = max_of_three(num_1, num_2, num_3)
         break
