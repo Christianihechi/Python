@@ -17,7 +17,7 @@ while True:
         num_2 = float(input("Enter the 2nd number: "))
         num_3 = float(input("Enter the 3rd number: "))
         print()
-        large = (max_of_three(num_1, num_2, num_3))
+        large = max_of_three(num_1, num_2, num_3)
         break
 
     except ValueError:
