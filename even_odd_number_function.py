@@ -13,4 +13,3 @@ def even_number_checker(check_number):
 while True:
     user_input = input("\nPlease enter any number to check if it's Even or Odd: ")
     even_number_checker(user_input)
-
