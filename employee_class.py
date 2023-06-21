@@ -11,7 +11,7 @@ class Employee:
         print(f"Salary: {self.salary}")
 
     def salary_raise(self, new_salary):
-        self.salary += new_salary
+        self.salary = new_salary
 
     def update_position(self, new_position):
         self.position = new_position
