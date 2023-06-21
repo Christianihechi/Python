@@ -46,6 +46,5 @@ def main():
             print("No Employee data currently saved, please select the right option.")
 
 
-
 if __name__ == '__main__':
     main()
